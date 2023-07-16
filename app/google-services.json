@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "772067867731",
+    "project_id": "restrobill-f91e9",
+    "storage_bucket": "restrobill-f91e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772067867731:android:00a29e2cdd64bb50415aa6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772067867731-470kefkqnegbk1ue37oo98358ebo0ucu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDInHI3FXTwgG8vp8k5pQKDP8BQupRiGuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772067867731-470kefkqnegbk1ue37oo98358ebo0ucu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

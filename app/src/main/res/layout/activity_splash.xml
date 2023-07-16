@@ -1,0 +1,24 @@
+<!-- activity_splash.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background">
+
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="378dp"
+        android:layout_height="384dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="177dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>

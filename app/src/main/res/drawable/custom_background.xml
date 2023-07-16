@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="45"
+        android:startColor="#FFc0c0aa"
+        android:endColor="#FF1cefff" />
+
+    <corners android:radius="0dp" />
+
+
+    <path
+        android:pathData="M0,0 L300,0 L300,200 Q150,400 0,200 Z"
+        android:fillColor="#FFFFFF" />
+
+    <path
+        android:pathData="M0,200 L300,200 L300,400 Q150,600 0,400 Z"
+        android:fillColor="#FFD50000" />
+
+    <path
+        android:pathData="M0,400 L300,400 L300,600 Q150,800 0,600 Z"
+        android:fillColor="#FFFFEA00" />
+
+    <path
+        android:pathData="M0,600 L300,600 L300,800 Q150,1000 0,800 Z"
+        android:fillColor="#FF00C853" />
+</shape>

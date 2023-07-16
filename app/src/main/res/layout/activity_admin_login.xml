@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    tools:context=".AdminLoginActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="154dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="188dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Hi!"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="71dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/username"
+        android:drawablePadding="12dp"
+        android:hint="Email"
+        android:padding="10dp"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:textColorHint="#CCCCCC" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_below="@id/usernameEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="71dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:textColorHint="#CCCCCC" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/rounded_button_primary"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/design_default_color_secondary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="267dp"
+        android:layout_height="179dp"
+        android:layout_above="@+id/usernameEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="-180dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+</RelativeLayout>
